@@ -1,0 +1,486 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    max-width: 1280px;
+    margin: auto;
+}
+.row{
+    width:100%;
+    margin: 0;
+}
+html {
+    overflow-y: scroll;
+  }
+/* Header CSS */
+.navbar-toggler{
+    display: block;
+}
+.navbar-expand-md .navbar-toggler {
+    display: inline-block;
+}
+.collapse:not(.show) {
+    display: none !important;
+}
+.dark{
+    background: #000;
+}
+.navbar-expand-md .navbar-nav {
+    flex-direction: column;
+}
+.banner{
+    background-image: url("../images/image1.jpg");
+    background-size: cover;
+    height: 350px;
+}
+.banner .container{
+    color: #fff;
+}
+.banner .container .search{
+    color:#f7aa00;
+    margin-top:3%;
+    font-size:12px;
+}
+.banner .container .banner-text{
+    font-size: 12px;
+    line-height: 2.5;
+    width: 80%;
+    margin: auto;
+}
+.banner .container h1{
+    font-size: 30px;
+}
+
+.yellow-scroll{
+    background: #f7aa00;
+    height:100px;
+}
+#yellow-scroll, .carousel-inner, .carousel-item{
+    height:inherit;
+}
+#yellow-scroll .carousel-inner{
+    width: 80%;
+    margin: auto;
+}
+#yellow-scroll .carousel-item{
+    text-align: center;
+}
+#yellow-scroll .carousel-item .inner-item{
+    display: inline-block;
+    width: 13%;
+    text-align: center;
+    padding: 18px 0;
+}
+#yellow-scroll h3{
+    font-size: 16px;
+    color: #000;
+    text-transform: uppercase;
+}
+.hide{
+    visibility:hidden;
+}
+.low-opacity{
+    opacity:0.2;
+}
+.bg-blur{
+    background:rgba(30,30,30,.8);
+}
+/*section area css*/
+.tabs form label{
+    color:#838383;
+    font-size: 12px;
+}
+.tabs form input:checked+ label{
+    color:#fff;
+}
+.tabs .list li a {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+}
+.tabs .list li:active{
+    color:#f7aa00;
+}
+.tabs .list li a.new-category{
+    padding: 0 20px;
+}
+.tabs .list li{
+    color: #fff;
+    list-style: none;
+}
+.tabs .drop-down span{
+    color: #838383;
+    font-size: 14px;
+}
+.tabs .drop-down .sort-options{
+    background: #1e1e1e;
+    border:none;
+    color: #fff;
+    font-size: 14px;
+}
+.section-one{
+    background: #1e1e1e;
+}
+section .title h4{
+    color:grey;
+    font-size: 18px;
+}
+section .title h4 span, .pic-counts .num{
+    color:#f7aa00;
+}
+section .car-tiles .tile-1{
+    background-image:url("../images/image3.jpg");
+    background-size: 100% 100%;
+    height: 350px;
+    position: relative;
+    cursor: pointer;
+}
+section .car-tiles .tile-2{
+    background-image:url("../images/image4.jpg");
+    background-size: 100% 100%;
+    height: 350px;
+    position: relative;
+    cursor: pointer;
+}
+section .car-tiles .tile-3{
+    background-image:url("../images/image5.jpg");
+    background-size: 100% 100%;
+    height: 350px;
+    position: relative;
+    cursor: pointer;
+}
+section .car-tiles .tile-4{
+    background-image:url("../images/image6.jpg");
+    background-size: 100% 100%;
+    height: 350px;
+    position: relative;
+    cursor: pointer;
+}
+section .car-tiles .tile-5{
+    background-image:url("../images/image7.jpg");
+    background-size: 100% 100%;
+    height: 350px;
+    position: relative;
+    cursor: pointer;
+}
+section .car-tiles .tile-6{
+    background-image:url("../images/image8.jpg");
+    background-size: 100% 100%;
+    height: 350px;
+    position: relative;
+    cursor: pointer;
+}
+section .car-tiles .tile-7{
+    background-image:url("../images/image9.jpg");
+    background-size: 100% 100%;
+    height: 350px;
+    position: relative;
+    cursor: pointer;
+}
+section .car-tiles .tile-8{
+    background-image:url("../images/image12.jpg");
+    background-size: 100% 100%;
+    height: 350px;
+    position: relative;
+    cursor: pointer;
+}
+section .car-tiles .tile-9{
+    background-image:url("../images/image10.jpg");
+    background-size: 100% 100%;
+    height: 350px;
+    position: relative;
+    cursor: pointer;
+}
+section .car-tiles .tile-10{
+    background-image:url("../images/image11.jpg");
+    background-size: 100% 100%;
+    height: 350px;
+    position: relative;
+    cursor: pointer;
+}
+section .car-tiles .pic-counts, section .car-tiles .cost, section .car-tiles .details,  section .car-tiles .country{
+    color: #fff;
+}
+section .car-tiles .bottom-row{
+    position: absolute;
+    bottom: 5px;
+}
+section .car-tiles .top-row{
+    position: absolute;
+    top:20px;
+}
+section .car-tiles .country{
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+section .car-tiles .pic-counts{
+    font-size: 10px;
+    color: lightgrey;
+}
+section .car-tiles .pic-counts .num{
+    font-size: 14px;
+}
+section .car-tiles .pic-counts .videos, section .car-tiles .pic-counts .photos{
+    background: rgba(0,0,0,.3);
+}
+.cost .price {
+    font-size:24px;
+}
+.cost .hp{
+    font-size:14px;
+}
+.bottom-row .details .year, .bottom-row .details .company{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.bottom-row .details .model{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.bottom-row .details .side, .bottom-row .details .milage, 
+.bottom-row .country .company-name, .bottom-row .country .location{
+    font-size: 12px;
+}
+.bottom-row .details .side, .bottom-row .country .company-name{
+    color:#f7aa00;
+    text-transform: uppercase;
+}
+.pic-counts .featured{
+    padding: 10px 20px 5px;
+    background: #f7aa00;
+    color:#000;
+    font-size: 14px;;
+}
+.country .text-detail{
+    font-size:14px;
+}
+section .pager{
+    padding: 50px 0;
+}
+section .pager .page-item a{
+    color: #838383;
+    text-transform: uppercase;
+}
+section .pager .page-item a:hover{
+    font-size:20px;
+    color:#f7aa00;
+    text-decoration: none;
+    
+}
+section .pager .prev-next{
+    font-size:12px;
+}
+section .pager .page-item .prev-next:hover{
+    font-size:14px;   
+}
+section .tile-8 h6{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+section .tile-8 h4{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+section .tile-8 h4 span{
+    font-weight:normal;
+    color:#bc0e0e;
+}
+section .tile-8 p, section .tile-8 h5{
+    font-weight: bold;
+}
+
+/*footer*/
+.section-two{
+    background: #232323;
+    padding:70px 0;
+}
+.footer-links li a{
+    font-size: 12px;
+    color: #838383;
+    text-transform: uppercase;
+}
+.footer-links li a:hover{
+    color:#f7aa00;
+    text-decoration: none;
+}
+.section-two .logo, .section-two .social-icons{
+    align-self: center;
+}
+footer .email a, footer .location{
+    color: #838383;
+    font-size: 12px;
+}
+.navbar-toggler:focus {
+    outline: none;
+}
+select.sort-options:focus {
+    outline: none;
+}
+/*pop-up*/
+.detailed-information{
+    color: lightgrey;
+    text-transform: uppercase;
+    height: inherit;
+}
+.detailed-information .engine-sound p{
+    font-size: 10px;
+}
+.detailed-information .price-details .price{
+    font-size: 22px;
+    font-weight: 600;
+    color: #f7aa00;
+}
+.detailed-information .engine-details .value{
+    color: #f7aa00;
+    font-size: 12px;
+    text-transform: none;
+    font-weight: 700;
+}
+.detailed-information .engine-details .name{
+    font-size: 10px;
+}
+.detailed-information .view-details{
+    padding: 10px 40px;
+    background: #f7aa00;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.detailed-information .seller{
+    font-size: 12px;
+    color: #f7aa00;
+}
+.detailed-information .location{
+    font-size: 14px;
+    text-transform: none;
+}
+.filters button{
+    padding:3px 5px;
+    background:grey;
+    font-size:12px;
+    color:#fff;
+}
+.filters button:focus{
+    outline:none;
+}
+a:hover{
+    text-decoration:none;
+}
+.por-che{
+    width:10%;
+}
+@media only screen and (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1200px;
+    }
+
+}
+@media only screen and (max-width:700px){
+    .bottom-row .details .model {
+        font-size: 20px;
+    }
+    .bottom-row .details .year, .bottom-row .details .company {
+        font-size: 14px;
+    }
+    .bottom-row .details .side, .bottom-row .details .milage, .bottom-row .country .company-name, .bottom-row .country .location {
+        font-size: 10px;
+    }
+    section .tile-8 h4 {
+        font-size: 2rem;
+    }
+    section .tile-8 h6 {
+        font-size: 18px;
+    }
+    section .tile-8 p, section .tile-8 h5 {
+        font-size: 14px;
+    }
+    .pic-counts .featured {
+        font-size: 12px;
+    }
+    .country .text-detail {
+        font-size: 12px;
+    }
+    header .banner p{
+        font-size: 12px;
+    }
+    #yellow-scroll .carousel-item .inner-item {
+        width: 20%;
+        padding: 18px 0;
+    }
+    #yellow-scroll h3 {
+        font-size: 10px;
+    }  
+    .logout{
+        width:30%;
+    }
+    .cart, .notification, img.search{
+        width:15%;
+    }
+    .menu{
+        width:85%;
+    }
+    .banner .container .banner-text {
+        line-height: 1.5; 
+       width: 100%; 
+    }
+    .banner .container h1 {
+        font-size: 24px;
+    }
+    .detailed-information .engine-details .name {
+        font-size: 8px;
+        word-break: break-word;
+    }
+    .detailed-information .engine-details .value {
+        font-size: 10px;
+    }
+    .detailed-information .price-details .name{
+        font-size: 14px;
+    }
+    .por-che{
+        width:40%;
+    }
+    .cost .price {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:992px) and (min-width:701px){
+    #yellow-scroll h3 {
+        font-size: 14px;
+    }
+    .logout{
+        width:30%;
+    }
+    .cart, .notification, img.search{
+        width:15%;
+    }
+    .menu{
+        width:85%;
+    }
+    .banner .container .banner-text {
+       width: 90%; 
+       line-height: 2;
+    }
+    .banner .container h1 {
+        font-size: 24px;
+    }
+    .detailed-information .engine-details .name {
+        font-size: 8px;
+        word-break: break-word;
+    }
+    .detailed-information .engine-details .value {
+        font-size: 10px;
+    }
+    .detailed-information .price-details .name{
+        font-size: 14px;
+    }
+    .por-che{
+        width:15%;
+    }
+}
+@media only screen and (min-width: 576px){
+    .d-sm-block {
+        display: inline-block !important;
+    }
+}
