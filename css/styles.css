@@ -53,7 +53,7 @@ html {
 }
 
 .yellow-scroll{
-    background: #f7aa00;
+    background: pink;
     height:100px;
 }
 #yellow-scroll, .carousel-inner, .carousel-item{
@@ -239,7 +239,7 @@ section .car-tiles .pic-counts .videos, section .car-tiles .pic-counts .photos{
     font-size: 30px;
     text-transform: uppercase;
 }
-.bottom-row .details .side, .bottom-row .details .milage, 
+.bottom-row .details .side, .bottom-row .details .milage,
 .bottom-row .country .company-name, .bottom-row .country .location{
     font-size: 12px;
 }
@@ -267,13 +267,13 @@ section .pager .page-item a:hover{
     font-size:20px;
     color:#f7aa00;
     text-decoration: none;
-    
+
 }
 section .pager .prev-next{
     font-size:12px;
 }
 section .pager .page-item .prev-next:hover{
-    font-size:14px;   
+    font-size:14px;
 }
 section .tile-8 h6{
     font-style: italic;
@@ -411,7 +411,7 @@ a:hover{
     }
     #yellow-scroll h3 {
         font-size: 10px;
-    }  
+    }
     .logout{
         width:30%;
     }
@@ -422,8 +422,8 @@ a:hover{
         width:85%;
     }
     .banner .container .banner-text {
-        line-height: 1.5; 
-       width: 100%; 
+        line-height: 1.5;
+       width: 100%;
     }
     .banner .container h1 {
         font-size: 24px;
@@ -459,7 +459,7 @@ a:hover{
         width:85%;
     }
     .banner .container .banner-text {
-       width: 90%; 
+       width: 90%;
        line-height: 2;
     }
     .banner .container h1 {
