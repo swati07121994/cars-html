@@ -1,0 +1,25 @@
+{
+  "name": "cars-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "common.js",
+  "scripts": {
+    "test": "jest --env=jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swati07121994/cars-html.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swati07121994/cars-html/issues"
+  },
+  "homepage": "https://github.com/swati07121994/cars-html#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
